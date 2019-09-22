@@ -19,9 +19,6 @@ body {
     
 }
 
-.portfolio.menu {
-
-}
 
 .portfolio-menu ul {
     margin: 0;
@@ -43,5 +40,30 @@ body {
     text-decoration: none;
     text-transform: uppercase;
 
+}
+
+.portfolio-profile {
+    width: 650px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,50%);
+    text-align: center;
+}
+
+.portfolio-profile img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: solid gold;
+}
+
+.portfolio-profile h1 {
+    font-weight: 500;
+}
+
+.portfolio-profile h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
 }
 
