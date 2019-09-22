@@ -91,3 +91,19 @@ main {
     font-size: 1rem;
     font-weight: 300;
 }
+
+.skill-main-grid {
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#skills {
+    color: white;
+    margin: 0px 10px 0px 10px;
+}
+
+.skill-main-grid h3 {
+    font-size: 2.5rem;
+    margin: 20px;
+}
