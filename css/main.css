@@ -3,3 +3,45 @@ html {
     width: 100%;
     font-family: 'Courier New', Courier, monospace;
 }
+
+body {
+    margin: 0px;
+    top: 0;
+    right: 0;
+}
+
+.portfolio-hero {
+    background: url(../img/bgimage.jpg) no-repeat center center fixed;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    color: white
+    
+}
+
+.portfolio.menu {
+
+}
+
+.portfolio-menu ul {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 1.5rem;
+}
+
+.portfolio-menu ul li {
+    margin: 0px 10px;
+    list-style: none;
+  
+
+}
+
+.portfolio-menu .menu-item a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
