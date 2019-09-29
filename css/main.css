@@ -97,13 +97,13 @@ main {
 .skill-main-grid {
     color: white;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 
 #skills {
     color: white;
 
-    background-color: #343b45
+    background-color: #995e19;
     
 }
 
@@ -119,4 +119,37 @@ main {
 
 .skill-main-grid div {
     margin: 20px;
+}
+
+/* Languages */
+#languages {
+    background-color: #27545c;
+}
+
+.languages-main-grid {
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#languages h2 {
+    margin: 0;
+    padding: 45px;
+    font-size: 2rem;
+    color: white;
+
+}
+
+.languages-main-grid h3 {
+    font-size: 1.5rem;
+    margin: 20px;
+}
+
+.languages-main-grid div {
+    margin: 20px;
+}
+
+a {
+    color: #d9efff;
+    
 }
