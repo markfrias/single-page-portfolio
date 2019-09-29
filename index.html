@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mark Frias</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/main.js"></script>
+
 </head>
 <body>
     <header>
@@ -75,5 +77,34 @@
         </div>
 
     </main>
+
+    <footer>
+        <form class="portfolio-form">
+            <h2>Send me a message.</h2>
+            <div class="form-row">
+                <label class="form-label">Subject:</label>
+                <div class="form-input">
+                    <input id="mailSubject" class="form-input-text" type="text">
+                </div>
+            </div>
+           <div class="form-row">
+               <label class="form-label">Message</label>
+                <div class="form-input">
+                    <textarea id="mailMessage" class="form-input-textarea"></textarea>
+                </div>
+           </div> 
+
+           <div class="form-submit">
+               <a onmouseover="appendMailTo()" id="sendMail" href="mailto:friasmarkjabel@gmail.com" class="btn-submit">Submit</a>
+           </div>
+        </form>
+
+        <div class="footer">
+            Copyright &copy; <span id="getYear"></span>
+        </div>
+    </footer>
+
+
+   
 </body>
 </html>
