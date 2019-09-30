@@ -102,7 +102,6 @@ main {
 
 #skills {
     color: white;
-
     background-color: #995e19;
     
 }
@@ -129,7 +128,7 @@ main {
 .languages-main-grid {
     color: white;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 
 #languages h2 {
@@ -159,6 +158,8 @@ main {
     width: 100%;
     padding: 7px 0px;
     border-radius: 8px;
+    background-color: #bc7020;
+    color: white;
 }
 
 .form-input input:focus {
@@ -174,6 +175,8 @@ main {
     width: 100%;
     padding: 7px 0px;
     height: 200px;
+    background-color: #bc7020;
+    color: white;
 }
 
 .form-submit {
@@ -190,6 +193,21 @@ main {
 
 .form-submit a {
     color: black;
+}
+
+/* Portfolio form styles */
+.portfolio-form {
+    background-color: #101215;
+    padding: 45px;
+    color: white;
+}
+
+/* Footer styles */
+.footer {
+    padding: 45px;
+    background-color: #101215;
+    color: white;
+    text-align: center;
 }
 
 a {
