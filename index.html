@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mark Frias</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/main.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="portfolio-hero">
+            <div class="portfolio-menu">
+                <ul class="nav-menu">
+                    <li class="menu-item"><a href="#portfolio-hero">Home</a></li>
+                    <li class="menu-item"><a href="#about">About Me</a></li>
+                    <li class="menu-item"><a href="#skills">Skills</a></li>
+                    <li class="menu-item"><a href="#footer">Contact</a></li>
+
+                </ul>
+                <div class="portfolio-profile">
+                    <img alt="profile-picture" src="img/me.jpg">
+                    <h1>Mark Jabel Frias</h1>
+                    <h2>Student Developer</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="about">
+            <h2>About Me</h2>
+            <p>I am Mark Jabel Frias. A student developer at the Adventist University of the Philippines taking up Bachelor of Science in Information Technology. I am a person driven by my passion for technology and urge to make the world a better place for everyone.</p>
+        </div>
+        <div id="skills">
+            <h2>Skills</h2>
+            <div class="skill-main-grid">
+            <div class="skill-grid2">
+                <h3>Microsoft Office Specialist</h3>
+                <p>Proficient and certified in Microsoft Word 2016 and Microsoft PowerPoint 2016. <a href="https://www.linkedin.com/in/mark-jabel-frias-b9341b141">See certificate here.</a></p>
+            </div>
+            <div class="skill-grid2">
+                <h3>Touch Typing</h3>
+                <p>Trained in a college level touch typing course with an average typing speed of 53 wpm and accuracy of 99%. <a href="https://www.ratatype.com/u1980256/certificate/">See certificate here.</a></p>
+            </div>
+            <div class="skill-grid3">
+                <h3>Resourcefulness</h3>
+                <p>Uses supplementary materials, online and print, in programming to improve current skills.</p>
+            </div>
+            <div class="skill-grid4">
+                <h3>Leadership</h3>
+                <p>Officer at several student organizations in the university. </p>
+            </div>
+            </div>
+        </div>
+        <div id="contact"></div>
+
+        <div id="languages">
+            <h2>Languages</h2>
+
+            <div class="languages-main-grid">
+                <div class="languages-grid">
+                    <h3>Java</h3>
+                    <p>We can see the application of Java everywhere, like in our mobile phones, desktops, websites. Java is majorly used for Application Development.</p>
+                </div>
+                <div class="languages-grid">
+                    <h3>SQL</h3>
+                    <p>Essentially, Structured Query Language (SQL) is used to retrieve data or otherwise interface with a relational database. As a standard going back to the 1970s, SQL is a popular way to get information out of relational database systems.</p>
+                </div>
+                <div class="languages-grid">
+                    <h3>HTML and CSS</h3>
+                    <p>CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, or printers.</p>
+                </div>
+                <div class="languages-grid">
+                    <h3>JavaScript</h3>
+                    <p>JavaScript is most commonly used as a client side scripting language. This means that JavaScript code is written into an HTML page. When a user requests an HTML page with JavaScript in it, the script is sent to the browser and it's up to the browser to do something with it.</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer id="footer">
+        <form class="portfolio-form">
+            <h2>Send me a message.</h2>
+            <div class="form-row">
+                <label class="form-label">Subject:</label>
+                <div class="form-input">
+                    <input id="mailSubject" class="form-input-text" type="text">
+                </div>
+            </div>
+           <div class="form-row">
+               <label class="form-label">Message</label>
+                <div class="form-input">
+                    <textarea id="mailMessage" class="form-input-textarea"></textarea>
+                </div>
+           </div> 
+
+           <div class="form-submit">
+               <a onmouseover="appendMailTo()" id="sendMail" href="mailto:friasmarkjabel@gmail.com" class="btn-submit">Submit</a>
+           </div>
+        </form>
+
+        <div class="footer">
+            Copyright &copy; <span id="getYear"></span>
+        </div>
+    </footer>
+
+
+   
+</body>
+</html>
