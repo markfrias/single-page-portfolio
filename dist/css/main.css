@@ -10,6 +10,7 @@ body {
     margin: 0;
     top: 0;
     right: 0;
+    overflow-x: hidden;
 }
 
 /* html, body {
@@ -36,12 +37,14 @@ body {
     justify-content: center;
     padding-top: 15px;
     font-size: 1.5rem;
+    width: auto;
+    flex-wrap: wrap;
 }
 
 .portfolio-menu ul li {
     margin: 0px 10px;
     list-style: none;
-  
+
 
 }
 
@@ -53,7 +56,7 @@ body {
 }
 
 .portfolio-profile {
-    width: 650px;
+    width: auto;
     height: 400px;
     position: absolute;
     left: 50%;
@@ -236,12 +239,16 @@ a {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .portfolio-menu ul {
+        flex-direction: column;
+    }
+
     .portfolio-hero {
         background: url(../img/bgmobile.jpg) no-repeat center center fixed;
-        height: 100vh;
         background-size: cover;
         text-align: center;
-        color: white
+        color: white;
+        
         
     }
 

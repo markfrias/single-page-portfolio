@@ -1,0 +1,22 @@
+{
+  "name": "single-page-portfolio",
+  "version": "1.0.0",
+  "description": "Web portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markfrias/single-page-portfolio.git"
+  },
+  "author": "Mark Jabel Frias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markfrias/single-page-portfolio/issues"
+  },
+  "homepage": "https://github.com/markfrias/single-page-portfolio#readme",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
