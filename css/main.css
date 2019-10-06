@@ -248,8 +248,13 @@ a {
         background-size: cover;
         text-align: center;
         color: white;
+        padding: 75px;
         
-        
+    }
+
+    .portfolio-profile {
+        margin: 0;
+}
     }
 
 }
